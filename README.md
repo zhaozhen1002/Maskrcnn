@@ -23,8 +23,12 @@ This is an Step-by-step tutorial of Mask R-CNN - How to train your own dataset o
 ![ano_rule](figures/labelme_rule.png)
 * train_dataの準備  
  [train_data](train_data)のようにフォルダとデータをご用意ください。  
-<img width="420" height="157" src=figures/train_data_format.png/>  
-
+  <img width="420" height="157" src=figures/train_data_format.png/>  
+  pic    
+ ![pic](figures/pic.png)  
+  json   
+ ![json](figures/json.png)
+  
 
 
 
