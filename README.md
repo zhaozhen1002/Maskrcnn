@@ -1,10 +1,12 @@
 # Mask R-CNN for train your own dataset
 ## Introduction
-This is an Step-by-step tutorial - How to train your own dataset on Mask R-CNN.Using [Mask R-CNN](https://arxiv.org/abs/1703.06870) based on https://github.com/matterport/Mask_RCNN. 
-![Instance Segmentation Sample](assets/street.png)
+This is an Step-by-step tutorial of Mask R-CNN - How to train your own dataset on Python 3, Keras, and TensorFlow.Using [Mask R-CNN](https://arxiv.org/abs/1703.06870) based on https://github.com/matterport/Mask_RCNN. 
+![Car scrach](figures/2.jpg)
 
-The repository includes:
-* Source code of Mask R-CNN built on FPN and ResNet101.
+手順:
+* 学習データの用意。  
+　`pip install google_images_download`  
+  `googleimagesdownload -k "谭卓" -l 20`  
 * Training code for MS COCO
 * Pre-trained weights for MS COCO
 * Jupyter notebooks to visualize the detection pipeline at every step
