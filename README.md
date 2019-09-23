@@ -18,6 +18,7 @@ This is an Step-by-step tutorial of Mask R-CNN - How to train your own dataset o
  labelme
  ```
 * アノテーションルール  
+![ano_rule](figures/labelme_rule.png)
 
 * [demo.ipynb](samples/demo.ipynb)の編集 
  
