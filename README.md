@@ -8,7 +8,15 @@ This is an Step-by-step tutorial of Mask R-CNN - How to train your own dataset o
  pip install google_images_download  
  googleimagesdownload -k "キーワード" -l 100
  ```
-* 学習データアノテーションと処理。推奨ツール：[Labelme](https://github.com/wkentaro/labelme) 
+* 学習データアノテーションと処理。推奨ツール：[Labelme](https://github.com/wkentaro/labelme)  
+ ```bash
+ # python3
+ conda create --name=labelme python=3.6
+ source activate labelme
+ labelme
+ ```
+### アノテーションルール  
+
 * [demo.ipynb](samples/demo.ipynb)の編集 
  
 
