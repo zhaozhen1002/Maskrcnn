@@ -1,7 +1,8 @@
 # Mask R-CNN for train your own dataset
 ## Introduction
 This is an Step-by-step tutorial of Mask R-CNN - How to train your own dataset on Python 3, Keras, and TensorFlow.Using [Mask R-CNN](https://arxiv.org/abs/1703.06870) based on https://github.com/matterport/Mask_RCNN.  
-
+  
+  
 ![Car scrach](figures/title.png)
 ## 手順
 ### データの用意
@@ -22,11 +23,9 @@ This is an Step-by-step tutorial of Mask R-CNN - How to train your own dataset o
 ![ano_rule](figures/labelme_rule.png)
 * train_dataの準備  
  [train_data](train_data)のようにフォルダとデータをご用意ください。  
-![Car scrach](figures/train_data_format.png width="70%")  
-<img src="igures/train_data_format.png" width="40%" />
-<div align="center">
-  <img src="igures/train_data_format.png width="40%">
-</div> 
+<img width="420" height="157" src=figures/train_data_format.png/>  
+
+
 
 
 * [demo.ipynb](samples/demo.ipynb)の編集 
