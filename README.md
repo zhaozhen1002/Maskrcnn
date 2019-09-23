@@ -1,6 +1,8 @@
 # Mask R-CNN for train your own dataset
 ## Introduction
-This is an Step-by-step tutorial of Mask R-CNN - How to train your own dataset on Python 3, Keras, and TensorFlow.Using [Mask R-CNN](https://arxiv.org/abs/1703.06870) based on https://github.com/matterport/Mask_RCNN.   
+This is an Step-by-step tutorial of Mask R-CNN - How to train your own dataset on Python 3, Keras, and TensorFlow.Using [Mask R-CNN](https://arxiv.org/abs/1703.06870) based on https://github.com/matterport/Mask_RCNN.  
+  
+  
 ![Car scrach](figures/title.png)
 ## 手順
 ### データの用意
@@ -38,7 +40,7 @@ This is an Step-by-step tutorial of Mask R-CNN - How to train your own dataset o
   
 
 
-
+## train.py/inference.pyの編集  
 * [demo.ipynb](samples/demo.ipynb)の編集 
  
 
