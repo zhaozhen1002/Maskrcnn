@@ -6,7 +6,7 @@ This is an Step-by-step tutorial of Mask R-CNN - How to train your own dataset o
 * 学習データの用意。googleの写真を利用したい場合、[google_images_download](https://github.com/hardikvasa/google-images-download)と推薦します。  
  ```bash
  pip install google_images_download  
- googleimagesdownload -k "キーワード" -l 100` 
+ googleimagesdownload -k "キーワード" -l 100
  ```
 * 学習データアノテーションと処理。推奨ツール：[Labelme](https://github.com/wkentaro/labelme) 
 * [demo.ipynb](samples/demo.ipynb)の編集 
