@@ -13,8 +13,8 @@ This is an Step-by-step tutorial of Mask R-CNN - How to train your own dataset o
 * 使用ツール：[Labelme](https://github.com/wkentaro/labelme)  
  ```bash
  # python3
- conda create --name=labelme python=3.6
- source activate labelme
+ conda create --name=labelme python=3.6  
+ source activate labelme  
  labelme
  ```
 * アノテーションルール  
