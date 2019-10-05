@@ -12,16 +12,10 @@ import cv2
 import matplotlib
 import matplotlib.pyplot as plt
 import argparse
-
 import yaml
 from PIL import Image
-
-import warnings
-warnings.filterwarnings('ignore')
-
 # Root directory of the project
 ROOT_DIR = os.path.abspath("../../")
-
 # Import Mask RCNN
 sys.path.append(ROOT_DIR)  # To find local version of the library
 from mrcnn.config import Config

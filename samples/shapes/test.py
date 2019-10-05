@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+﻿#!/usr/bin/env python
 # coding: utf-8
 
 import os
@@ -13,15 +13,12 @@ import matplotlib
 import matplotlib.pyplot as plt
 import skimage.io
 import argparse
-
 import yaml
 from PIL import Image
 import warnings
 warnings.filterwarnings('ignore')
-
 # Root directory of the project
 ROOT_DIR = os.path.abspath("../../")
-
 # Import Mask RCNN
 sys.path.append(ROOT_DIR)  # To find local version of the library
 from mrcnn.config import Config
@@ -29,7 +26,6 @@ from mrcnn import utils
 import mrcnn.model as modellib
 from mrcnn import visualize
 from mrcnn.model import log
-
 # Directory to save logs and trained model
 MODEL_DIR = os.path.join(ROOT_DIR, "logs")
 
