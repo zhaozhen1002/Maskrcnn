@@ -91,7 +91,7 @@ example:if the value of threshsold is set at 0.5,Only the pictures which's thres
 ### Visualization on tensorboard
 
  ```bash
-tensorboard --logdir 自分のpath/MaskRCNN-Damage-Detection/logs/shapes20190930T1107 --host 0.0.0.0
+tensorboard --logdir your path/MaskRCNN-Damage-Detection/logs/shapes20190930T1107 --host 0.0.0.0
 http://localhost:6006/
  ```
  <div align=center><img width="800" height="350" src=figure/loss.PNG/></div>
