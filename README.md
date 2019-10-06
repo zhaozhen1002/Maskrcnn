@@ -34,13 +34,13 @@ This is an Step-by-step tutorial of Mask R-CNN - How to train your own dataset o
  </details>
 
 
-## 学習
+### 学習
 * [train.py](samples/shapes/train.py)  
  ```bash
  python train.py --CLASS_NAME ['ラベル1','ラベル2'] --epoch 100 ......
  ```  
  そのほかのパラメータは[config.py](/mrcnn/config.py)にご調整くだせい。
-## 推論
+### 推論
 * [test.py](samples/shapes/test.py)
  ```bash
  python test.py --class_names ['BG', 'ラベル1', 'ラベル2'] ......
