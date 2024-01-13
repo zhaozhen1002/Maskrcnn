@@ -5,8 +5,7 @@ This is an Step-by-step tutorial of Mask R-CNN - How to train your own dataset o
 
 ## 手順
 ### データの用意と前処理
-<details>
-    <summary>View Detail</summary>
+
 
 * 使用ツール：[Labelme](https://github.com/wkentaro/labelme)  
  ```bash
